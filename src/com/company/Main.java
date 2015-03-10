@@ -23,6 +23,10 @@ public class Main {
 
         operation = op.nextLine();
 
+        performCalculation(firstNo, secondNo, operation);
+    }
+    
+    public static void performCalculation(int firstNo, int secondNo, String operation) {
         if (operation.equals("+")){
             System.out.println("Calculation is: " + (firstNo + secondNo));
         }

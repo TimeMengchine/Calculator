@@ -17,11 +17,9 @@ public class Main {
         System.out.println("Enter second no:");
         secondNo = input.nextInt();
 
-        Scanner op = new Scanner(System.in);
-
         System.out.println("Enter choice of operation.\"+ - / % *\"only.");
 
-        operation = op.nextLine();
+        operation = input.nextLine();
 
         if (operation.equals("+")){
             System.out.println("Calculation is: " + (firstNo + secondNo));
